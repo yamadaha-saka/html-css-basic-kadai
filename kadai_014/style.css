@@ -1,35 +1,40 @@
 @charset "utf-8";
   /*ここにCSSを書いていきます*/
+  html {
+    font-size: 20px;
+  }
+  google-fonts {
+    font-family:"Josefin Sans", sans-serif;
+  }
   body {
-  font-size: 20px;
-  font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Arial", "Meiryo" ,sans-serif;
   }
-  h1 {
-  font-size: 40px;
-  font-family: Josefin Sans;
-  }
-  .総合フォント{
-  font-size: 20px;
-  font-family: sans-serif;
+  .decoration{
+    border-bottom: solid 3px rgb(115, 115, 114);
+    font-size: 40px;
+    font-family: "Josefin sans",sans-serif;
+    letter-spacing: 1.2em;
+    text-shadow: 2px 2px 5px blue;
   }
   /*色を変える*/
-  span1 {
+  span {
     color: skyblue;
   }
-  span2 {
+
+  #second-heading {
     color: rgb(255, 192, 203);
   }
 
-  /*文字の間隔*/
-  h1 {
-    letter-spacing: 1.2rem;
-  }
+#parent > p {
+  font-weight: bold;
+}
 
-  /*影*/
-  h1 {
-    text-shadow: 1px 2px 5px blue;
-  }
-  /*実線*/
-  h1 {
-    border-bottom: solid 3px rgb(115,115,114);
-  }
+#third-heading{
+  color: rgb(255, 192, 203);
+}
+
+#fouth-heading{
+  color: skyblue;
+}
