@@ -77,4 +77,8 @@ a:hover {
   p {
     font-size: 25px;
   }
+  #parent {
+    display: flex;
+    flex-direction: column;
+  }
 }
